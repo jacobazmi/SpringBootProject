@@ -26,7 +26,7 @@ public class Cat {
         this.age = age;
     }
 
-    public String getJsonObjectOfCat(){
+    public String toString(){
         return "{" +
                 "\"name\":\"" + name +
                 "\", \"age\":\"" + age +

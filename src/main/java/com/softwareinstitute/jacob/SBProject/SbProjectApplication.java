@@ -15,9 +15,9 @@ public class SbProjectApplication {
 
 	@GetMapping("/getcat")
 	public String catResponse(){
-		Cat cat1 = new Cat("ella",11);
+		CatCollection catCollection = new CatCollection();
 
-		return cat1.getJsonObjectOfCat();
+		return catCollection.toString();
 	}
 
 }
